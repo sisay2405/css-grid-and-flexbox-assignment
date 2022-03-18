@@ -150,6 +150,7 @@
   display: flex;
   justify-content:space-between;
   background-color: #f6dc7d;
+  overflow: hidden;
 }
 .question7 > div:nth-child(1) {
   display: flex;
