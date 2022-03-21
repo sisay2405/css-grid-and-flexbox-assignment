@@ -20,7 +20,7 @@ To submit your assignment, send Sarah an email at [scullen@bitwiseindustries.com
 
 - Research/review CSS the usage of the CSS `position` property and practice using it to create fixed-position headers, absolutely-positioned elements, overlapping elements, etc.
 
-- Research how to deploy your assignment to either GitHub Pages or Heroku (free plan). If you're able to deploy, include a link to your deployed assignment in your email submission!
+- Research how to deploy your assignment to either GitHub Pages or Heroku (free plan). If you're able to deploy, include a link to your deployed assignment in your email submission!  /https://sisay2405.github.io/css-grid-and-flexbox-assignment/
 
 ---
 
