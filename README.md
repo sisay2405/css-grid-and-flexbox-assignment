@@ -16,7 +16,7 @@ To submit your assignment, send Sarah an email at [scullen@bitwiseindustries.com
 
 - Take a look at both `index.html` and `assets/css/base.css`. There are a number of ways you could simplify the HTML structure (especially re: class names) and many ways you could simplify and consolidate the provided CSS. Experiment with making these optimizations while preserving the existing styling. If you're uncertain how to proceed, try using Google-Fu to investigate and try potential strategies. 
 
-- Create a [wireframe](https://www.indeed.com/career-advice/career-development/wireframes?aceid=&gclid=Cj0KCQjwuMuRBhCJARIsAHXdnqM_Q1RiwwKARPUhvxFt2lGVssBWIPve7msudmtGVZwHbbJ86h0hdpcaAnK1EALw_wcB) for one or more layouts you'd like to build with Flexbox/Grid. Use [wireframe.cc](https://wireframe.cc/) or a similar free service to do so. Then build out semantic HTML and CSS to match your layout! (If you do this, please include your code within your repository for this assignment, and also include a link to your wireframe(s)!)
+- Create a [wireframe](https://www.indeed.com/career-advice/career-development/wireframes?aceid=&gclid=Cj0KCQjwuMuRBhCJARIsAHXdnqM_Q1RiwwKARPUhvxFt2lGVssBWIPve7msudmtGVZwHbbJ86h0hdpcaAnK1EALw_wcB) for one or more layouts you'd like to build with Flexbox/Grid. Use [wireframe.cc](https://wireframe.cc/) or a similar free service to do so. Then build out semantic HTML and CSS to match your layout! (If you do this, please include your code within your repository for this assignment, and also include a link to your wireframe(s)!) /https://wireframe.cc/pro/edit/530422/
 
 - Research/review CSS the usage of the CSS `position` property and practice using it to create fixed-position headers, absolutely-positioned elements, overlapping elements, etc.
 
