@@ -37,32 +37,18 @@
   font-size: 10px;
   background-color: #f6dc7d;
 }
-.question2 > div:nth-child(1) {
-  background-color: #96ceb4;
-}
-.question2 > div:nth-child(2) {
-  background-color: #ff6f69;
-}
-.question2 > div:nth-child(3) {
-  background-color: #88d8b0;
-}
+
 
 /*(3) Your answer goes below here for question #3 please use the border below */
 /* border: 3px solid #e31c79; */
 
 .question3 {
+  display: flex;
+  flex-direction: column-reverse;
   border: 3px solid #e31c79;
   font-size: 10px;
 }
-.question3 > div:nth-child(1) {
-  background-color: #96ceb4;
-}
-.question3 > div:nth-child(2) {
-  background-color: #ff6f69;
-}
-.question3 > div:nth-child(3) {
-  background-color: #88d8b0;
-}
+
 /*(4) Your answer goes below here for question #4 please use the border below */
 /* border: 3px solid #e33618; */
 .question4 {
@@ -74,27 +60,23 @@
   font-size: 10px;
 }
 .question4 > div:nth-child(1) {
-  background-color: #96ceb4;
   align-self: flex-end;
 } 
 .question4 > div:nth-child(2) {
-  background-color: #ff6f69;
   align-self:center;
 }
 .question4 > div:nth-child(3) {
-  background-color: #88d8b0;
   align-self: end;
 } 
 .question4 > div:nth-child(4) {
-  background-color: #f5e553;
+
   align-self:flex-start;
 } 
 
 /*(5) Your answer goes below here for question #5 please use the border below */
 /* border: 3px solid #1f2546; */
-
 .question5 {
-  border: 3px solid #1f2546; 
+  border: 3px solid #1f2546; ;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -102,47 +84,36 @@
   font-size: 10px;
 }
 .question5 > div:nth-child(1) {
-  background-color: #96ceb4;
   align-self: flex-end;
 } 
 .question5 > div:nth-child(2) {
-  background-color: #ff6f69;
-  align-self:stretch
+  align-self:flex-start;
 }
 .question5 > div:nth-child(3) {
-  background-color: #88d8b0;
   align-self: end;
 } 
 .question5 > div:nth-child(4) {
-  background-color: #f5e553;
   align-self:flex-start;
 } 
+ 
 /*(6) Your answer goes below here for question #6 please use the border below */
 /* border: 3px solid #91d2e0 */
 .question6 {
-  border: 3px solid #91d2e0 ;
+  border: 3px solid #91d2e0 ; 
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #f6dc7d;
   font-size: 10px;
 }
 .question6 > div:nth-child(1) {
-  background-color: #96ceb4;
   align-self: flex-end;
 } 
-.question6 > div:nth-child(2) {
-  background-color: #ff6f69;
-  align-self:flex-start;
-}
 .question6 > div:nth-child(3) {
-  background-color: #88d8b0;
   align-self: end;
 } 
 .question6 > div:nth-child(4) {
-  background-color: #f5e553;
   align-self:flex-start;
-} 
+}
 /*(7) Your answer goes below here for question #7 please use the border below */
 /* border: 3px solid #139dc2; */
 .question7 {
