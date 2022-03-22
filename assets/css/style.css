@@ -7,31 +7,15 @@
 
 /*(1) Your answer goes below here for question #1 please use the border below */
 /* border: 3px solid #ffcc5c; */
-/* .question1 {
-    border: 3px solid #ffcc5c; 
-    display: flex;
-    flex-basis: 100%;
-    justify-content:space-between;
-    font-size: 10px;
-  }  */
   .question1 {
 	display: flex;
 	border: 3px solid #ffcc5c;
   font-size: 10px;
-  /* flex-wrap: wrap; */
+  overflow: hidden;
 }
-.question1 div {
-	width: 50%;
+.question1 > div {
+	width: 100%;
 }
-/* .question1 {
-    border: 3px solid #ffcc5c; 
-    display: flex;
-    flex-basis: 100%;
-    justify-content:space-between;
-    font-size: 10px;
-    overflow: hidden;
-    flex-wrap: wrap;
-  } */
 /*(2) Your answer goes below here for question #2 please use the border below */
 /* border: 3px solid #1f2546; */
 .question2 {
@@ -57,7 +41,6 @@
   border: 3px solid #e33618;
   display: flex;
   flex-direction: column;
-  align-items: center;
   background-color: #f6dc7d;
   font-size: 10px;
 }
@@ -121,51 +104,12 @@
   border: 3px solid #139dc2;
   display: grid;
   grid-template-columns: auto auto auto auto  auto auto auto;
-  /* grid-gap: 60px; */
   background-color: #f6dc7d;
   overflow: hidden;
 }
 .question7 > div {
   display: grid;
 } 
-
-
-/* using flex */
-/* .question7 {
-  border: 3px solid #139dc2;
-  display: flex;
-  justify-content:space-between;
-  background-color: #f6dc7d;
-  overflow: hidden;
-}
-.question7 > div:nth-child(1) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(2) {
-  display: flex;
-  flex-direction: column;
-}
-.question7 > div:nth-child(3) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(4) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(5) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(6) {
-  display: flex;
-  flex-direction: column;
-} 
-.question7 > div:nth-child(7) {
-  display: flex;
-  flex-direction: column;
-}  */
 /*(8) Your answer goes below here for question #8 please use the border & background below */
 /* border: 3px solid #7b8ac7; */
 /* background-color: #bad3e2; */
@@ -203,12 +147,9 @@ text-align: center;
   font-size: 10px;
   color: #ffeead;
 }
-
-
 /*(11) Your answer goes below here for question #11 please use the border & background below */
 /* border: 3px solid #7f798a; */
 /* background-color: #bad3e2; */
-
 .question11 {
 border: 3px solid #7f798a;
 background-color: #bad3e2;
@@ -218,7 +159,7 @@ grid-template-columns: repeat(12, 1fr);
 grid-template-areas:
     "head head head head head head head head head head head head "
     "main side side side side side side side side side side side "
-    " footer footer footer footer footer footer footer footer footer footer footer footer"
+    "footer footer footer footer footer footer footer footer footer footer footer footer"
 }
 
 .question11 > header:nth-child(1) {
