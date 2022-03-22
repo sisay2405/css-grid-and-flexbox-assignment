@@ -7,21 +7,16 @@
 
 /*(1) Your answer goes below here for question #1 please use the border below */
 /* border: 3px solid #ffcc5c; */
+
 .question1 {
-  border: 3px solid #ffcc5c; 
-  display: flex;
-  justify-content:space-around;
-  font-size: 10px;
-}
-.question1 > div:nth-child(1) {
-  width: 100%;
-}
-.question1 > div:nth-child(2) {
-  width: 100%;
-}
-.question1 > div:nth-child(3) {
-  width: 100%;
-}
+    border: 3px solid #ffcc5c; 
+    display: flex;
+    flex-basis: 100%;
+    justify-content:space-between;
+    font-size: 10px;
+    overflow: hidden;
+    /* flex-wrap: wrap; */
+  }
 /*(2) Your answer goes below here for question #2 please use the border below */
 /* border: 3px solid #1f2546; */
 .question2 {
@@ -114,27 +109,10 @@
   background-color: #f6dc7d;
   overflow: hidden;
 }
-.question7 > div:nth-child(1) {
+.question7 > div {
   display: grid;
 } 
-.question7 > div:nth-child(2) {
-  display: grid;
-}
-.question7 > div:nth-child(3) {
-  display: grid;
-} 
-.question7 > div:nth-child(4) {
-  display: grid;
-} 
-.question7 > div:nth-child(5) {
-  display: grid;
-} 
-.question7 > div:nth-child(6) {
-  display: grid;
-} 
-.question7 > div:nth-child(7) {
-  display: grid;
-} 
+
 
 /* using flex */
 /* .question7 {
